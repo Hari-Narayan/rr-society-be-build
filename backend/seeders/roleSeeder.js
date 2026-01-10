@@ -1,0 +1,1 @@
+"use strict";var __importDefault=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0});const role_1=__importDefault(require("../models/role")),roles_1=__importDefault(require("../data/roles")),roleSeeder=async()=>{await role_1.default.insertMany(roles_1.default)};exports.default=roleSeeder;

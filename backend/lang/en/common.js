@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.DB_CONNECTED=exports.SOMETHING_WENT_WRONG=exports.DB_REMOVED=exports.FILE_NOT_FOUND=void 0,exports.FILE_NOT_FOUND="File not Found!",exports.DB_REMOVED="Database removed successfully.",exports.SOMETHING_WENT_WRONG="Something went wrong!",exports.DB_CONNECTED="Database connected successfully.";
