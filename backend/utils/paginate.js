@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const paginate=async(e,t={},a=1,s=10,o=[],i="-createdAt")=>{const c=(a-1)*s,[l,r]=await Promise.all([e.find(t).sort(i).skip(c).limit(s).populate(o).exec(),e.countDocuments(t)]),n=Math.ceil(r/s);return{docs:l,page:a,limit:s,totalDocs:r,totalPages:n,hasPrevPage:a>1,hasNextPage:a<n}};exports.default=paginate;
