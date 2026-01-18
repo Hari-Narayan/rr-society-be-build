@@ -1,0 +1,1 @@
+"use strict";let io;Object.defineProperty(exports,"__esModule",{value:!0}),exports.getIO=exports.setIO=void 0;const setIO=e=>{io=e};exports.setIO=setIO;const getIO=()=>{if(!io)throw new Error("[Socket] Socket.io has not been initialized. Call initSocket(server) first.");return io};exports.getIO=getIO;
